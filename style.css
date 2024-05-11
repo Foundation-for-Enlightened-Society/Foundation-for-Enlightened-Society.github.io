@@ -1,0 +1,59 @@
+body {
+  font-family: "Noto Serif Tibetan", serif;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 0.5rem;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+p {
+  line-height: 2rem;
+}
+ol { 
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+.current-initiatives li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.glyph {
+  margin: 2rem auto 0.5rem;
+  font-size: 4rem;
+  width: 2rem;
+  line-height: 3rem;
+}
+
+.current-initiatives {
+  margin-top: 2rem;
+}
+.current-initiatives ol {
+  margin-left: 1.25rem;
+}
+.contact {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+.about-us li {
+  margin: 0; padding: 0;
+  line-height: 2rem;
+}
+address {
+  line-height: 1.5rem;
+}
