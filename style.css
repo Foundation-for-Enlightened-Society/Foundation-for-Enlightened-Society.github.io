@@ -22,9 +22,10 @@ h2 {
   margin-top: 1.5rem;
 }
 p {
-  line-height: 2rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.5rem;
 }
-ol { 
+ol {
   line-height: 2rem;
   margin-top: 1rem;
 }
@@ -52,7 +53,7 @@ ol {
 }
 .about-us li {
   margin: 0; padding: 0;
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 address {
   line-height: 1.5rem;
