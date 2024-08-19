@@ -2,7 +2,7 @@ body {
   font-family: "Noto Serif Tibetan", serif;
 }
 .container {
-  max-width: 960px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 2rem;
   margin-top: 0.5rem;
@@ -19,10 +19,15 @@ h2 {
   line-height: 2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
 }
 p {
-  line-height: 1.8rem;
+  line-height: 1.7rem;
   margin-bottom: 0.5rem;
 }
 ol {
@@ -30,8 +35,9 @@ ol {
   margin-top: 1rem;
 }
 .current-initiatives li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   padding-left: 1rem;
+  line-height: 1.5rem;
 }
 .glyph {
   margin: 2rem auto 0.5rem;
@@ -41,7 +47,7 @@ ol {
 }
 
 .current-initiatives {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .current-initiatives ol {
   margin-left: 1.25rem;
@@ -55,6 +61,42 @@ ol {
   margin: 0; padding: 0;
   line-height: 1.8rem;
 }
+.team li {
+  line-height: 1rem;
+  margin-bottom: 0.8rem;
+}
 address {
   line-height: 1.5rem;
+}
+
+.link-icon {
+  font-size: 1.25rem;
+  margin-left: 0.1rem;
+}
+
+a {
+  color: #006bff;
+}
+
+.link-icon:hover {
+  /* color: #007bff;  */
+  color: #333;
+}
+
+.team {
+  display: flex;
+  background-color: #eee;
+  padding: 2rem;
+  padding-right: 0;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+.team > div {
+  width: 50%;
+  margin-right: 1rem; 
+}
+
+.team h2 {
+  margin-top: 0;
 }
