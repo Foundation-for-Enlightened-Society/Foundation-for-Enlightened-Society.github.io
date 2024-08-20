@@ -102,3 +102,17 @@ a {
 .team h2 {
   margin-top: 0;
 }
+
+#subscribe {
+  background-color: #eee;
+  padding: 0.5rem 2rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.mc-field-group input[type="checkbox"] {
+  margin-right: 0.3rem;
+}
+
+#mc_embed_signup form {
+  margin: 0;
+}
