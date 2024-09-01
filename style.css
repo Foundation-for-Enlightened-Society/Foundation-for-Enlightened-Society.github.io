@@ -57,14 +57,6 @@ ol {
   margin-bottom: 0.5rem;
   padding: 0;
 }
-.about-us li {
-  margin: 0; padding: 0;
-  line-height: 1.8rem;
-}
-.team li {
-  line-height: 1.4rem;
-  margin-bottom: 0.8rem;
-}
 address {
   line-height: 1.5rem;
 }
@@ -97,6 +89,17 @@ a {
   min-width: 180px;
   margin-right: 1rem;
   padding: 0.75rem 0 0.5rem;
+}
+
+#staff {
+  margin-bottom: 1.8rem;
+}
+
+.team li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .team h2 {
