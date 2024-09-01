@@ -62,7 +62,7 @@ ol {
   line-height: 1.8rem;
 }
 .team li {
-  line-height: 1rem;
+  line-height: 1.4rem;
   margin-bottom: 0.8rem;
 }
 address {
@@ -95,7 +95,7 @@ a {
 
 .team > div {
   min-width: 180px;
-  margin-right: 1rem; 
+  margin-right: 1rem;
   padding: 0.75rem 0 0.5rem;
 }
 
