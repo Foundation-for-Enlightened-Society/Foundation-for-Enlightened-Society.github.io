@@ -115,7 +115,7 @@ a {
 
 #subscribe {
   background-color: #eee;
-  padding: 0.5rem 2rem 1rem;
+  padding: 0.5rem 2.2rem 1.2rem;
   border-radius: 0.5rem;
 }
 
@@ -126,3 +126,8 @@ a {
 #mc_embed_signup form {
   margin: 0;
 }
+
+#mc-embedded-subscribe-form {
+  margin: 0;
+}
+
