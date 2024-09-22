@@ -34,10 +34,13 @@ ol {
   line-height: 2rem;
   margin-top: 1rem;
 }
-.current-initiatives li {
+.ongoing-offerings li, .recent-initiatives li {
   margin-bottom: 0.75rem;
   padding-left: 1rem;
   line-height: 1.5rem;
+}
+.ongoing-offerings li {
+  margin-bottom: 0.3rem;
 }
 .glyph {
   margin: 2rem auto 0.5rem;
@@ -46,11 +49,15 @@ ol {
   line-height: 3rem;
 }
 
-.current-initiatives {
+.recent-initiatives {
   margin-top: 1rem;
 }
-.current-initiatives ol {
+.recent-initiatives ol, .ongoing-offerings ol {
   margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.ongoing-offerings {
+  margin-bottom: 1rem;
 }
 .contact {
   text-align: center;
