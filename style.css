@@ -1,8 +1,9 @@
 body {
   font-family: "Noto Serif Tibetan", serif;
+  font-size: 1.2rem;
 }
 .container {
-  max-width: 880px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 2rem;
   margin-top: 0.5rem;
@@ -31,13 +32,13 @@ p {
   margin-bottom: 0.5rem;
 }
 ol {
-  line-height: 2rem;
+  line-height: 2.2rem;
   margin-top: 1rem;
 }
 .ongoing-offerings li, .recent-initiatives li {
-  margin-bottom: 0.75rem;
-  padding-left: 1rem;
-  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  line-height: 1.6rem;
 }
 .ongoing-offerings li {
   margin-bottom: 0.3rem;
@@ -73,6 +74,12 @@ ol {
 }
 address {
   line-height: 1.5rem;
+  font-style: normal;
+  background-color: #eee;
+  padding: 1.5rem 2rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1.2rem 0 1.8rem 0;
+
 }
 
 .link-icon {
