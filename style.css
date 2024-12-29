@@ -215,3 +215,19 @@ a {
   background-color: #FFB700;
   text-decoration: none;
 }
+
+img.guidestar-seal:hover {
+  animation: shimmer 1.4s;
+}
+
+@keyframes shimmer {
+  0% {
+    filter: brightness(1) contrast(1);
+  }
+  50% {
+    filter: brightness(1.2) contrast(1.1);
+  }
+  100% {
+    filter: brightness(1) contrast(1);
+  }
+}
