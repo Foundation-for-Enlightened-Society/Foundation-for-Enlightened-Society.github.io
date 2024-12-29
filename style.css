@@ -105,18 +105,19 @@ address {
   100% { background-position: 200% center; }
 }
 
+a {
+  color: #006bff;
+}
+
 .link-icon {
   font-size: 1.1rem;
   margin-left: 0.1rem;
 }
 
-a {
-  color: #006bff;
-}
-
 .link-icon:hover {
   /* color: #007bff;  */
   color: #333;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .team {
