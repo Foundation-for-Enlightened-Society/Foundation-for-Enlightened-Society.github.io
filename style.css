@@ -48,6 +48,7 @@ ol {
   font-size: 4rem;
   width: 2rem;
   line-height: 3rem;
+  color: #111;
 }
 
 .recent-initiatives {
@@ -80,6 +81,28 @@ address {
   border-radius: 0.5rem;
   margin: 1.2rem 0 1.8rem 0;
 
+}
+.fes {
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  color: #eee;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 0.3rem;
+  margin: 0.5rem auto;
+  text-align: center;
+  background: linear-gradient(45deg, #111, #3498db);
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 3s infinite linear;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
 }
 
 .link-icon {
@@ -136,3 +159,59 @@ a {
   border-radius: 0.5rem;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.personal-info,
+.practices {
+  width: 100%;
+}
+.practices li {
+  padding-bottom: 0.4rem !important;
+}
+.practices label {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  /* make the text align to the checkbox */
+  position: relative;
+  top: 0.2rem;
+}
+
+@media (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+  
+  .personal-info {
+    width: 65%;
+  }
+  .practices {
+    width: 35% !important;
+  }
+}
+
+.membership-button {
+  display: block;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background-color: #FFD700;
+  color: #000;
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.membership-button:hover {
+  background-color: #FFC700;
+  color: #333;
+  text-decoration: none;
+}
