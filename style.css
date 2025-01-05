@@ -85,23 +85,13 @@ address {
   font-style: italic;
   font-size: 1.4rem;
   line-height: 2rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-  color: #eee;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 2px solid #bdc3c7;
   padding-bottom: 0.3rem;
   margin: 0.5rem auto;
   text-align: center;
-  background: linear-gradient(45deg, #111, #3498db);
-  background-clip: text;
-  color: transparent;
-  animation: shimmer 3s infinite linear;
-}
-
-@keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+  color: black;
 }
 
 a {
