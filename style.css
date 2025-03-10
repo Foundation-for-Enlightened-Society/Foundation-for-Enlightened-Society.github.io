@@ -25,7 +25,9 @@ h2 {
 h3 {
   font-size: 1.2rem;
   font-weight: bold;
+  line-height: 1.2rem;
   margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 p {
   line-height: 1.7rem;
@@ -84,14 +86,21 @@ address {
 .fes {
   font-style: italic;
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 1.3rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  border-bottom: 2px solid #bdc3c7;
-  padding-bottom: 0.3rem;
-  margin: 0.5rem auto;
   text-align: center;
+  margin: 0.5rem auto;
   color: black;
+}
+.tagline {
+  font-style: italic;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #bdc3c7;
 }
 
 a {
@@ -117,6 +126,15 @@ a {
   padding: 1rem 2rem 0.5rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
+}
+
+.mission ol {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.mission ol li {
+  margin-bottom: 0.5rem;
 }
 
 .team > div {
