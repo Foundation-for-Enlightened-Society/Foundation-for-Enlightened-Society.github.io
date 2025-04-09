@@ -52,6 +52,24 @@ li {
   color: #111;
 }
 
+.project {
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
+}
+
+.project ul {
+  list-style-type: disc;
+  margin-left: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.project ul li {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
 .recent-initiatives {
   margin-top: 1rem;
 }
@@ -77,12 +95,12 @@ li {
 address {
   line-height: 1.5rem;
   font-style: normal;
-  background-color: #eee;
+  /* background-color: #eee; */
   padding: 1.5rem 2rem 1rem;
   border-radius: 0.5rem;
   margin: 1.2rem 0 1.8rem 0;
-
 }
+
 .fes {
   font-style: italic;
   font-size: 1.4rem;
@@ -136,6 +154,8 @@ a {
 .mission ol li {
   margin-bottom: 0.5rem;
 }
+
+
 
 .team > div {
   min-width: 180px;
