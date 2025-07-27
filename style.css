@@ -3,7 +3,7 @@ body {
   font-size: 1.2rem;
 }
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 2rem;
   margin-top: 0.5rem;
@@ -52,11 +52,35 @@ li {
   color: #111;
 }
 
-.project {
+.projects-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .projects-row {
+    flex-direction: column;
+  }
+}
+
+.project {
+  background-color: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
-  padding: 0.75rem 2rem;
+  padding: 1.5rem 2rem 1rem;
+  /* Remove flex layout from .project so projects stack vertically in column mode */
+  /* display: flex; 
+  flex-wrap: wrap; 
+  gap: 2rem;  */
+}
+
+.projects-row .project {
+  flex: 1 1 320px;
+  min-width: 300px;
+  box-sizing: border-box;
 }
 
 .project ul {
@@ -95,7 +119,7 @@ li {
 address {
   line-height: 1.5rem;
   font-style: normal;
-  /* background-color: #eee; */
+  background-color: #f9f9f9;
   padding: 1.5rem 2rem 1rem;
   border-radius: 0.5rem;
   margin: 1.2rem 0 1.8rem 0;
@@ -140,8 +164,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #eee;
-  padding: 1rem 2rem 0.5rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 1.5rem 2rem 1rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
 }
@@ -182,9 +207,11 @@ a {
 }
 
 #subscribe {
-  background-color: #eee;
-  padding: 0.5rem 2.2rem 1.2rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 0.5rem 2rem 1rem;
   border-radius: 0.5rem;
+  margin: 2rem 0;
 }
 
 .flex {
@@ -265,4 +292,8 @@ img.guidestar-seal:hover {
   text-align: center;
   margin-top: 2rem;
   font-size: 1rem;
+}
+
+#certifications {
+  margin-top: 2rem;
 }
