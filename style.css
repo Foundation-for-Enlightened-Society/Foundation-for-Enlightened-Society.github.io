@@ -211,14 +211,30 @@ a {
 }
 
 .flex {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
   gap: 2rem;
+  align-items: flex-start;
 }
 
 .personal-info,
 .practices {
-  width: 100%;
+  flex: 1 1 50% !important;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column !important;
+  }
+
+  .personal-info,
+  .practices {
+    flex: 1 1 100% !important;
+    width: 100%;
+  }
 }
 .practices li {
   padding-bottom: 0.4rem !important;
