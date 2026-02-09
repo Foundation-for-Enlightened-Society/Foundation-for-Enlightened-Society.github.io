@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Serif Tibetan", serif;
   font-size: 1.2rem;
+  line-height: 1.5;
 }
 .container {
   max-width: 1080px;
@@ -30,7 +31,7 @@ h3 {
   margin-top: 1rem;
 }
 p {
-  line-height: 1.7rem;
+  line-height: 1.5;
   margin-bottom: 0.5rem;
 }
 ol {
@@ -113,7 +114,7 @@ li {
   text-decoration: underline;
 }
 address {
-  line-height: 1.5rem;
+  line-height: 1.5;
   font-style: normal;
   background-color: #f9f9f9;
   padding: 1.5rem 2rem 1rem;
@@ -269,6 +270,68 @@ a {
   text-decoration: none;
 }
 
+#donations {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* Donate box: even vertical spacing */
+#donations h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+#donations p {
+  margin-bottom: 0.75rem;
+}
+#donations .materials-donations {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+#donations .materials-donations p {
+  margin-bottom: 0.5rem;
+}
+#donations address {
+  margin: 0.75rem 0 0.5rem 0;
+  padding: 1rem 1.5rem;
+}
+
+.donate-footer {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.donate-seal {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.donate-seal a {
+  display: block;
+  line-height: 0;
+}
+
+.donate-ein {
+  margin: 0;
+  line-height: 1.4;
+  padding: 0.25rem 0;
+}
+
+img.guidestar-seal {
+  display: block;
+  width: 96px;
+  height: auto;
+  vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+  .donate-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 img.guidestar-seal:hover {
   animation: shimmer 1.4s;
 }
@@ -293,4 +356,8 @@ img.guidestar-seal:hover {
 
 #certifications {
   margin-top: 2rem;
+}
+
+.materials-donations {
+  margin-top: 1.25rem;
 }
