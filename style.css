@@ -146,8 +146,10 @@ a {
 }
 
 .link-icon {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-left: 0.1rem;
+  position: relative;
+  top: -0.05rem;
 }
 
 .link-icon:hover {
@@ -167,15 +169,10 @@ a {
   margin: 2rem 0;
 }
 
-.mission ol {
-  margin-left: 1.25rem;
-  margin-bottom: 1rem;
-}
+.mission p {
+  text-align: center;
 
-.mission ol li {
-  margin-bottom: 0.5rem;
 }
-
 
 
 .team > div {
