@@ -511,6 +511,15 @@ img.guidestar-seal:hover {
   border-radius: 0.5rem;
   padding: 1rem 2rem;
 }
+.completed-programs details > ol {
+  display: block !important;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.completed-programs details[open] > ol {
+  max-height: 800px;
+}
 .completed-programs summary {
   cursor: pointer;
   list-style: none;
@@ -536,8 +545,9 @@ img.guidestar-seal:hover {
   font-size: 1.3rem;
 }
 .completed-programs ol {
-  margin-left: 1.25rem;
   margin-bottom: 0.75rem;
+  padding-left: 2em;
+  list-style-position: outside;
 }
 
 /* ===== Footer ===== */
