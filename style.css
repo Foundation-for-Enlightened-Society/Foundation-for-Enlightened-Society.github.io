@@ -83,6 +83,35 @@ a:hover {
   font-size: 1.2rem;
 }
 
+.site-notice {
+  display: flex;
+  gap: 0.35rem 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1rem;
+  margin: 0 auto 1.25rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+  max-width: 44rem;
+  background: #fff9db;
+  border: 1px solid #f0e68c;
+  border-radius: 0.5rem;
+  color: #333;
+  text-align: center;
+}
+.site-notice-body {
+  text-align: center;
+}
+.site-notice a {
+  white-space: nowrap;
+}
+@media (max-width: 480px) {
+  .site-notice {
+    flex-direction: column;
+  }
+  .site-notice a {
+    white-space: normal;
+  }
+}
+
 .link-icon {
   font-size: 0.9rem;
   margin-left: 0.1rem;
